@@ -2,7 +2,7 @@ import json
 from json2html import *
 
 
-with open ('input.json') as f:
+with open ('input1.json') as f:
     d = json.load(f)
     scanOutput =json2html.convert(json=d)
     htmlReportFile = "outfile.html"
